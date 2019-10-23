@@ -36,3 +36,13 @@ yarn start
 ```
 
 Ao iniciar o Expo, selecione as opções para conectar nos devices/simuladores Android e iOS
+
+## Debug
+
+A aplicação já está configurada para realizar o debug em ambiente local. Caso seja necessário configurar a url por conta de simulador ou backend externo, a configuração do novo host pode ser adicionada no arquivo .env, conforme exemplo abaixo:
+
+```
+#Reactotron
+HOST_PORT =9090
+HOST_URL =192.168.0.4
+```
